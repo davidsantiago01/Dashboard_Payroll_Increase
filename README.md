@@ -44,3 +44,9 @@ Create a dashboard that shows the following:
 Your report should incorporate all the necessary data so that managers have a clear picture of the situation. You should clean the data if necessary. The report must be dynamic and include new data as it becomes available.
 
 There is no single correct answer. You will be evaluated based on how versatile your file is, the quality of your analysis, and the clarity of your presentation.
+
+## Data Sources
+  - Princial - Base Datos - Data for all employees currently on the payroll
+  - Documento 1 - Salary increases
+  - Documento 2 - Errors
+  - Documento 3 - Article 50 (Severance pay under the Federal Labor Law)
