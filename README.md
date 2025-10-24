@@ -34,12 +34,12 @@ Your task is to provide the numbers for the decision by calculating the costs of
 ## Deliverables
 
 Create a dashboard that shows the following:
-• Total current payroll expense (all components)
-• Cost of implementing the American plan, in dollars and percentage
-• Cost of implementing the Mexican plan, in dollars and percentage
-• Chart of current costs by performance rating
-• Table of current costs by department, in dollars and percentage
-• Two additional slicers (by grade and by department)
+  - Total current payroll expense (all components)
+  - Cost of implementing the American plan, in dollars and percentage
+  - Cost of implementing the Mexican plan, in dollars and percentage
+  - Chart of current costs by performance rating
+  - Table of current costs by department, in dollars and percentage
+  - Two additional slicers (by grade and by department)
 
 Your report should incorporate all the necessary data so that managers have a clear picture of the situation. You should clean the data if necessary. The report must be dynamic and include new data as it becomes available.
 
