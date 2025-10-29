@@ -5,7 +5,6 @@
 - [Project Overview](#project-overview)
 - [Deliverables](#deliverables)
 - [Data Sources](#data-sources)
-- [Tools](#tools)
 - [Data Cleaning / Preparation](#data-cleaning--preparation)
 - [Initial Analysis](#initial-analysis)
 - [Dashboard – Initial Steps](#dashboard--initial-steps)
@@ -50,3 +49,6 @@ There is no single correct answer. You will be evaluated based on how versatile 
   - Documento 1 - Salary increases
   - Documento 2 - Errors
   - Documento 3 - Article 50 (Severance pay under the Federal Labor Law)
+
+## Data Cleaning
+
