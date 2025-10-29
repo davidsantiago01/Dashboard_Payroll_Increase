@@ -53,4 +53,12 @@ There is no single correct answer. You will be evaluated based on how versatile 
 ## Data Cleaning
 Data cleaninng consisted on gathering all tables into a main normalized Table. We also fixed grammar errors with Search and Replace, Date Formatting, and removed extra blank spaces on text columns.
 
-## 
+## Initial Analysis
+First of all, we needed to determine the Mexican and American Salary Raise, in order to do such we added the following columns:
+  - Total Slary Base before raise: The sum of all the payment categories of every employee. =SUM(Data[@[Salary Base]:[General Bonus]])
+  - Mexican Salary Raise: By multiplying each value category payment of every employee with the corresponding % increase given on the pdf file. =SUMPRODUCT(Data[@[Salary Base]:[General Bonus]],Table2)
+  - American Salary Raise: By multiplying Mexican Salary Raise*2, since the American Raise considers increasing twice the Mexican proposed increase but only to employees with score 4 o 5 and firing employuees with score 1. We later apply this filter during Pivot process. =[@[Mexican Salary Raise]]*2
+
+
+
+
