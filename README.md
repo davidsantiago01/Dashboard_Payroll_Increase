@@ -51,4 +51,6 @@ There is no single correct answer. You will be evaluated based on how versatile 
   - Documento 3 - Article 50 (Severance pay under the Federal Labor Law)
 
 ## Data Cleaning
+Data cleaninng consisted on gathering all tables into a main normalized Table. We also fixed grammar errors with Search and Replace, Date Formatting, and removed extra blank spaces on text columns.
 
+## 
