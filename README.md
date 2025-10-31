@@ -5,11 +5,11 @@
 - [Project Overview](#project-overview)
 - [Deliverables](#deliverables)
 - [Data Sources](#data-sources)
-- [Data Cleaning / Preparation](#data-cleaning--preparation)
+- [Data Cleaning](#data-cleaning)
 - [Initial Analysis](#initial-analysis)
+- [Further Analysis](#further-analysis)
 - [Dashboard – Initial Steps](#dashboard--initial-steps)
 - [Slices](#Slices)
-- [Further Document Analysis](#further-document-analysis)
 - [Final Dashboard](#final-dashboard)
 - [Final Results](#final-reuslts)
 
@@ -61,7 +61,7 @@ First of all, we needed to determine the Mexican and American Salary Raise, in o
 
 
 ## Further Analysis
-In order to understand and compare how convinient is implementing the American plan (consisting on layoff employees which means paying "Indemnización" or Layoff Bonu), we have to calculate how much Layoff bonus would employees receive if they had to go. For such analysis, we had to read the pdf given, where give us the information needed to do the calculation. The pdf file mentions the layoff bonus consist on paying 3 months of salary + 20 days of salary for each year working year to the employee. Thus the calculation went as follows:
+In order to understand and compare how convinient is implementing the American plan (consisting on layoff employees which means paying "Indemnización" or Layoff Cost), we have to calculate how much Layoff bonus would employees receive if they had to go. For such analysis, we had to read the pdf given. The pdf file mentions the layoff cost consist on paying 3 months of salary + 20 days of salary for each year working year to the employee. Thus the calculation went as follows:
   - 3 Month Salary: =[@[Total Salary Before]]*3
   - Employee working hours: Calculated taking date base first working day of the next year 2018 which is Jan 2nd, 2018 less the date each employee were hired divided by the 365 days.   =(43102-[@[Hiring Date]])/365 
   - Daily Salary: Taken dividing total salary by 30 days =[@[Total Salary Before]]/30
@@ -69,3 +69,25 @@ In order to understand and compare how convinient is implementing the American p
 <img width="450" height="731" alt="image" src="https://github.com/user-attachments/assets/a728d528-44ef-40cb-a915-ee7aa49124ba" />
 
 
+
+Once we have the complete normalized table we can now work with Pivots to get the main data we will need for the Dashboard. 
+
+ - Total current payroll expense (all components)
+   
+    <img width="177" height="62" alt="image" src="https://github.com/user-attachments/assets/25724d10-5f43-41d5-b509-259b8d57422b" />
+
+- Cost of implementing the American plan, in dollars and percentage
+  
+    <img width="751" height="86" alt="image" src="https://github.com/user-attachments/assets/06a58e39-bca6-46bc-a165-49e8c77d505e" />
+
+- Cost of implementing the Mexican plan, in dollars and percentage
+  
+    <img width="414" height="83" alt="image" src="https://github.com/user-attachments/assets/64e065b0-3a74-4bd2-81d4-d2c4b4623b77" />
+
+ - Chart of current costs by performance rating
+   
+    <img width="394" height="128" alt="image" src="https://github.com/user-attachments/assets/0fd77a26-7c04-4ebb-a155-665a3ed3149a" />
+
+- Table of current costs by department, in dollars and percentage
+  
+    <img width="387" height="211" alt="image" src="https://github.com/user-attachments/assets/d63cdce2-0d64-420b-b4f2-35dcee2cac0e" />
