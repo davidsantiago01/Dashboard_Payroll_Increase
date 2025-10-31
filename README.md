@@ -61,6 +61,11 @@ First of all, we needed to determine the Mexican and American Salary Raise, in o
 
 
 ## Further Analysis
-In order to understand and compare how convinient is implementing the American plan (consisting on layoff employees which means paying "Indemnización" or Layoff Bonu), we have to calculate how much Layoff bonus would employees receive if they had to go.
+In order to understand and compare how convinient is implementing the American plan (consisting on layoff employees which means paying "Indemnización" or Layoff Bonu), we have to calculate how much Layoff bonus would employees receive if they had to go. For such analysis, we had to read the pdf given, where give us the information needed to do the calculation. The pdf file mentions the layoff bonus consist on paying 3 months of salary + 20 days of salary for each year working year to the employee. Thus the calculation went as follows:
+  - 3 Month Salary: =[@[Total Salary Before]]*3
+  - Employee working hours: Calculated taking date base first working day of the next year 2018 which is Jan 2nd, 2018 less the date each employee were hired divided by the 365 days.   =(43102-[@[Hiring Date]])/365 
+  - Daily Salary: Taken dividing total salary by 30 days =[@[Total Salary Before]]/30
+  - 20 Days per Year Layoff Bonus: The main data we are interested. Taken by multiplying Daily Salary * 20 * Employee Years. =[@[Daily Salary]]*20*[@[Employee Working Years]]
+<img width="450" height="731" alt="image" src="https://github.com/user-attachments/assets/a728d528-44ef-40cb-a915-ee7aa49124ba" />
 
 
