@@ -60,5 +60,7 @@ First of all, we needed to determine the Mexican and American Salary Raise, in o
   - American Salary Raise: By multiplying Mexican Salary Raise*2, since the American Raise considers increasing twice the Mexican proposed increase but only to employees with score 4 o 5 and firing employuees with score 1. We later apply this filter during Pivot process. =[@[Mexican Salary Raise]]*2
 
 
+## Further Analysis
+In order to understand and compare how convinient is implementing the American plan (consisting on layoff employees which means paying "Indemnización" or Layoff Bonu), we have to calculate how much Layoff bonus would employees receive if they had to go.
 
 
