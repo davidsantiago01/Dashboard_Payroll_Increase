@@ -8,7 +8,7 @@
 - [Data Cleaning](#data-cleaning)
 - [Initial Analysis](#initial-analysis)
 - [Further Analysis](#further-analysis)
-- [Dashboard – Initial Steps](#dashboard--initial-steps)
+- [Dashboard](#dashboard)
 - [Slices](#Slices)
 - [Final Dashboard](#final-dashboard)
 - [Final Results](#final-reuslts)
@@ -91,3 +91,10 @@ Once we have the complete normalized table we can now work with Pivots to get th
 - Table of current costs by department, in dollars and percentage
   
     <img width="387" height="211" alt="image" src="https://github.com/user-attachments/assets/d63cdce2-0d64-420b-b4f2-35dcee2cac0e" />
+
+
+## Dashboard
+
+
+
+  
