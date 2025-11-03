@@ -9,8 +9,6 @@
 - [Initial Analysis](#initial-analysis)
 - [Further Analysis](#further-analysis)
 - [Dashboard](#dashboard)
-- [Slices](#Slices)
-- [Final Dashboard](#final-dashboard)
 - [Final Results](#final-reuslts)
 
 ## Project Overview 
@@ -95,6 +93,18 @@ Once we have the complete normalized table we can now work with Pivots to get th
 
 ## Dashboard
 
+Finally we completed the Dashboard with the following Information:
+  - We inserted as a shapeform Total Payroll Cost, American Implementation Cost and Mexican Implementation Cost, along with their cost percentages.
+  - A bar graph utilized to denonate the Total Cost per Score among the employees
+  - Provided the table with the Payroll Cost per Area with their respective percentages cost
+  - Finally two slicers, one slicer per Payroll Area, and one slicer per Payroll Cost
 
 
+
+<img width="1454" height="695" alt="image" src="https://github.com/user-attachments/assets/7a065b81-fc02-4fc8-95a0-763dd08e0989" />
+
+
+
+## Final Results
+At first instance, implementing the American Payroll Raise Cost ($25,695,967.22) is more costly for the company than the Mexican Payroll Raise ($5,533,298.56), since we are talking about paying lay off cost to Mexican employees with Score 1. However if the company consdier redeem the cost in 12 months or more, it may be beneficial in the long run, since the company will compensate the excellent workers and get rid of the deadweight. Depends on the company medium and long run vision to make this decision. 
   
